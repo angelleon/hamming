@@ -62,5 +62,5 @@ class Hamming:
         self.connection = Receptor
 
     def start(self):
-        pass
+        return self.ui.exec()
 

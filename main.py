@@ -3,8 +3,9 @@
 from hamming.hamming import Hamming
 
 
-def mian():
+def main():
     hamming = Hamming()
+    hamming.start()
 
 
 if __name__ == '__main__':
