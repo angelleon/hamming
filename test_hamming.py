@@ -2,15 +2,7 @@
 
 from struct import pack
 
-from hamming.hamming import gen_mask, insert_redundant_bits, hamming_algorithm
-
-
-def str_to_bytearray(s):
-    arr = bytearray()
-    for c in s:
-        b = ord(c)
-        arr += pack("B", b)
-    return arr
+from hamming.hamming import gen_mask, insert_redundant_bits, hamming_algorithm, str_to_bytearray
 
 
 """gen_mask(2, 40)
