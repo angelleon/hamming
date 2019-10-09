@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5da9e29-f016-4243-91a1-a67a455c824c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hamming/hamming.py" beforeDir="false" afterPath="$PROJECT_DIR$/hamming/hamming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hamming/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/hamming/ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_hamming.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_hamming.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

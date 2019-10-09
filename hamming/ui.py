@@ -130,6 +130,8 @@ class MainWindow(QMainWindow):
 
         txt_ip = QLineEdit()
         txt_port = QLineEdit()
+        self.txt_ip = txt_ip
+        self.txt_port = txt_port
         cmb_protocol = QComboBox()
         cmb_protocol.addItems(("TCP", "UDP"))
 
@@ -140,8 +142,10 @@ class MainWindow(QMainWindow):
         lyt_main.addWidget(wdgt_form)
 
         wdgt_editor = CodeEditor()
+        self.txt_editor = wdgt_editor
         lyt_main.addWidget(wdgt_editor)
         wdgt_editor = CodeEditor()
+        self.txt_show = wdgt_editor
         wdgt_editor.setEnabled(False)
         lyt_main.addWidget(wdgt_editor)
 
@@ -149,6 +153,7 @@ class MainWindow(QMainWindow):
         lyt_rdio = QHBoxLayout()
         wdgt_rdio.setLayout(lyt_rdio)
         rdio_send = QRadioButton("Send")
+        self.rdio_send = rdio_send
         rdio_recv = QRadioButton("Recive")
         rdio_send.setChecked(True)
         rdio_send.toggled.connect(self.slt_rdio_change)
